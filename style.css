@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 868px;
+    justify-content: center;
+    align-items: center;
+
+}
+.cube{
+    flex-grow: 1;
+    width: 250px;
+    border-radius: 0.5rem;
+}
+.cube:hover{
+    color: aqua;
+}
+.card{
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 250px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 0.8rem;
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(216, 50%, 16%) ;
+    /* border: 2rem solid hsl(216, 50%, 16%) ; */
+    box-shadow:0.8rem 1rem hsl(217, 54%, 10%);
+
+}
+
+.creator{
+    margin: 0;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h1:hover{
+    color: aqua;
+}
+
+body > div > div > div:nth-child(1) {
+    display: flex;
+}
+
+body > div > div > div:nth-child(2) > div{
+    display: flex;
+}
+
+body > div > div > div:nth-child(2) > div > div:nth-child(1){
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+body > div > div > div:nth-child(2) > div > div:nth-child(1) > p{
+    font-size: 14px;
+    color: aqua;
+    margin-left: 5px;
+    font-weight: 500;
+
+}
+
+body > div > div > div:nth-child(2) > div > div:nth-child(2){
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+body > div > div > div:nth-child(2) > div > div:nth-child(2) > p {
+    font-size: 14px;
+    color:hsl(215, 32%, 40%);
+    margin-left: 5px;
+    font-weight: 500;
+
+}
+
+body > div > div > div:nth-child(4){
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+body > div > div > div:nth-child(4) > div:nth-child(1) {
+    justify-content: start;
+}
+
+body > div > div > div:nth-child(4) > div:nth-child(2){
+    justify-content: end;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+body > div > div > div:nth-child(4) > div:nth-child(2) > p > span {
+    color: hsl(215, 32%, 27%);
+    margin-right: 2px;
+}
+body > div > div > div:nth-child(4) > div:nth-child(2) > p:hover{
+    color:aqua;
+}
+body > div > div > div:nth-child(2) > p{
+    font-size: 15px;
+    color: hsl(215, 32%, 27%);
+}
+hr{
+    border-color: hsl(215, 32%, 27%);
+}
